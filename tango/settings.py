@@ -93,6 +93,10 @@ DATABASES = {
 }
 
 
+# If user is not logged in, redirect here
+LOGIN_URL = 'rango:login'
+
+
 # Password hashers
 
 PASSWORD_HASHERS = [
